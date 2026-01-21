@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Brothers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="mascara-formulario" onclick="closeForms()"></div>
+
+    <div class="caixa-video">
+        <video id="video" autoplay muted loop>
+            <source src="./assets/video.mp4" type="video/mp4">
+        </video>
+
+        <div class="mascara"></div>
+    </div>
+
+
+    <header>
+
+        <a href="./index.html">
+            <img class="icon-header" src="./assets/icon.png" alt="icone do mario bross">
+        </a>
+
+
+        <section class="nav">
+            <a class="link-nav" href="#">Home</a>
+            <a class="link-nav" href="#">Fale Conosco</a>
+            <a class="link-nav" href="#">Nossos Serviços</a>
+        </section>
+    </header>
+
+    <main id="content">
+        <section class="container-left">
+            <img class="logo-container-left" src="./assets/logo.png" alt="logo do mario">
+
+            <p class="paragraph-container-left">
+                Encanadores Mario e Luigi - Resolvendo Ceus Problemas com Estilo!
+                Você já se encontrou em uma situação de emergência com encanamento?
+                Vazamentos inesperados, canos entupidos ou torneiras que não param de pingar?
+                Não se preocupe, pois estamos aqui para salvar o dia! Apresentamos a vocês os
+                mais famosos encanadores do Reino de Cogumelos - Mario e Luigi!
+            </p>
+
+            <button class="button-container-left" type="submit" onclick="showForms()">Entre em Contato</button>
+        </section>
+
+        <section class="container-right">
+            <img class="mario-luigi-container-right" src="./assets/mario.png" alt="mario e luigi">
+        </section>
+    </main>
+
+    <a href="https://wa.me/5561983178319?text=Ol%C3%A1%2C%20quero%20ajuda%20dos%20irm%C3%A3os%20Mario!" target="_blank"
+        class="link-whatsapp">
+        <img src="./assets/whatsapp.png" alt="Link para o wpp">
+    </a>
+
+    <form
+        class="formulario-fale-conosco"
+        action="https://formcarry.com/s/JeE7WmcBuJq"
+        method="post"
+        enctype="multipart/form-data">
+            <img class="emoji-x" src="./assets/marca-x.svg" alt="emoji-x" onclick="closeForms()">
+
+            <input name="name" type="text" placeholder="Digite seu nome:">
+
+            <input name="tell" type="tel" placeholder="Digite seu telefone:">
+
+            <textarea name="message" placeholder="Digite seu problema aqui..."></textarea>
+
+            <button class="button-form" type="submit">Pedir Orçamento</button>
+    </form>
+</body>
+
+<script src="scripts.js"></script>
+
+</html>
