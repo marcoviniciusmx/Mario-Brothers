@@ -13,6 +13,9 @@
   <a href="#-getting-started">Como executar</a>
 </p>
 
+<br>
+
+<img src="./assets/Mockup - Mario Brothers.png" alt="Mockup Mario Brothers" width="100%">
 ---
 
 ## 🏠 About the project
